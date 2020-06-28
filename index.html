@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=MuseoModerno' rel='stylesheet'>
+
+    <title>Assignment num 7</title>
+</head>
+
+<body>
+
+    <div class="background-calculator">
+        <div>
+            <input type="text" class="screen-calculator" id="result">
+        </div>
+
+        <div class="buttons-containers">
+            <button class="normal-button" onclick="getName('7')">7</button>
+            <button class="normal-button" onclick="getName('8')">8</button>
+            <button class="normal-button" onclick="getName('9')">9</button>
+            <button class="normal-button" onclick="clearResult()">AC</button>
+        </div>
+        <div class="buttons-containers">
+            <button class="normal-button" onclick="getName('4')">4</button>
+            <button class="normal-button" onclick="getName('5')">5</button>
+            <button class="normal-button" onclick="getName('6')">6</button>
+            <button class="normal-button" style="background-image: radial-gradient(circle, #c0adad, #a58383, #885b5b, #6b3535, #4c0d12);" onclick="getName('/')">/</button>
+
+        </div>
+        <div class="buttons-containers">
+            <button class="normal-button" onclick="getName('1')">1</button>
+            <button class="normal-button" onclick="getName('2')">2</button>
+            <button class="normal-button" onclick="getName('3')">3</button>
+            <button class="normal-button" style="background-image: radial-gradient(circle, #c0adad, #a58383, #885b5b, #6b3535, #4c0d12);" onclick="getName('*')">x</button>
+
+        </div>
+        <div class="buttons-containers">
+            <button class="normal-button" onclick="getName('0')">0</button>
+            <button class="normal-button" onclick="getName('.')">.</button>
+            <button class="normal-button" style="background-image: radial-gradient(circle, #c0adad, #a58383, #885b5b, #6b3535, #4c0d12);" onclick="getName('+')">+</button>
+            <button class="normal-button" style="background-image: radial-gradient(circle, #c0adad, #a58383, #885b5b, #6b3535, #4c0d12);" onclick="getName('-')">-</button>
+
+        </div>
+        <div class="buttons-containers">
+            <button class="special-button" onclick="getResult()">=</button>
+
+        </div>
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
